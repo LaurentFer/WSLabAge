@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://model/" xmlns:tns="http://model/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="maFonction" type="tns:maFonction"/>
+
+  <xs:element name="maFonctionResponse" type="tns:maFonctionResponse"/>
+
+  <xs:complexType name="maFonction">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="maFonctionResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
