@@ -5,7 +5,7 @@ Etapes :
 
 - 1- Création de la classe monAge dans le package model
 
-- 2- Run de la cmd wsgen pour générer le wdsl et le schéma xsd
+- 2- Run de la cmd wsgen pour générer les classes du jaxws, le wdsl et le schéma xsd
 
 wsgen -wsdl -r D:\workspaceWS\LabAge -s D:\workspaceWS\LabAge\src -verbose -d D:\workspaceWS\LabAge\bin -keep -cp D:\workspaceWS\LabAge\bin model.monAge
 
